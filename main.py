@@ -24,7 +24,6 @@ def print_details(atomic_mass, standard_state, electron_configuration, oxidation
           "\nYear Discovered:", year_discovered)
     ask_user_to_continue()
 
-
 def ask_user_to_continue():
     delay(0.5)
     print("-------------------------------")
@@ -88,7 +87,6 @@ def main_menu():
         delay(0.01)
         count += 1
     show_menu()
-    
         
 def show_menu():
     print("[[[[[[[[[[[ ELEMENT SEARCHER ]]]]]]]]]]]")
@@ -520,6 +518,5 @@ def search_element(user_input):
     delay(1.5)
     clear_console()
     show_menu()
-
 
 main_menu()
